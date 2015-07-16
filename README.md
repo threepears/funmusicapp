@@ -1,3 +1,3 @@
 # funmusicapp
-Online music search application
+Online music search application.
 Enjoy!
