@@ -1,0 +1,176 @@
+/* BASE STYLES */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/darkmetal.jpg");
+	font-family: "Tahoma", "Helvetica", sans-serif;
+	height: 100%;
+}
+
+#container {
+	margin: 0 auto;
+	width: 80%;
+	color: #fff;
+	height: 100%;
+}
+
+
+
+/* HEAD SEARCH AREA */
+
+header {
+	background-image: url("../images/black_linen_v2.png");
+	border: 1px solid #b7b7b7;
+	padding: 20px;
+	margin-top: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+header > h1 {
+	text-shadow: 0px 1px 2px rgba(150, 150, 150, 1);
+	margin-top: 0;
+}
+
+#searchbox {
+	font-size: 1.5em;
+	padding-left: 10px;
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+#submit {
+	font-size: 1.2em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: SteelBlue;
+	margin: 0 0 0 10px;
+	padding: .2em .4em;
+	cursor: pointer;
+	position: relative;
+	top: -3px;
+}
+
+
+
+/* RESULTS AREA */
+
+#homeresults {
+	background-image: url("../images/black_linen_v2.png");
+	border: 1px solid #b7b7b7;
+	padding: 20px;
+	margin: 20px 0 0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	height: 510px;
+}
+
+#powered {
+	position: relative;
+  	top: 82%;
+  	-ms-transform: translateY(-50%);
+  	-webkit-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+#powered > p {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#powered > p > img {
+	height: 300px;
+}
+
+#waves {
+}
+
+#tower {
+	position: relative;
+	top: -320px;
+	
+}
+
+#results {
+	display: none;
+	background-image: url("../images/black_linen_v2.png");
+	border: 1px solid #b7b7b7;
+	padding: 30px 20px 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	height: 510px;
+	position: relative;
+	top: -510px;
+}
+
+h2 { margin-top: 0;
+	 color: gold;}
+
+.bio {
+	width: 55%;
+	text-align: left;
+	padding: 0 20px 0 20px;
+	float: left;
+}
+
+.bio a:link, .bio a:visited {
+	color: #ffec89;
+	text-decoration: none;
+}
+
+.bio a:hover, .bio a:active {
+	color: gold;
+}
+
+.photo {
+	
+}
+
+.photo img {
+	width: 40%;
+	float: right;
+	margin-right: 20px;
+	border: 1px solid gold;
+}
+
+
+
+
+
+
+
+
+
+
+
